@@ -36,7 +36,7 @@ then
   cat js_source_console_log.log
   bash commandline.sh
 fi
-if [ $command == "exit"]
+if [ $command == "exit" ]
 then
   exit
 fi
