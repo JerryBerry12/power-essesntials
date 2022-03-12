@@ -1,3 +1,4 @@
+clear # make it not look wierd.
 while :; do
   LINES=$(tput lines) COLUMNS=$(tput cols)
   echo $LINES $COLUMNS $[RANDOM%COLUMNS] $(printf "\U$[ RANDOM%500]")
