@@ -26,6 +26,11 @@ then
   cd commands
   bash shutdown_computer.sh
 fi
+if [ $command == "matrix" ]
+then
+  cd commands
+  bash my-matrix.sh
+fi
 if [ $command == "clear_log" ]
 then
   cd commands
